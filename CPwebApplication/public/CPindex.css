@@ -1,0 +1,226 @@
+#bodymain{
+    background-image: url('images/mainpageBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+#header{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+#cplogo1{
+    height: 30px;
+    width: 300px;
+    color: aqua;
+}
+#loginbtn{
+    margin-left: 5px;
+}
+#loginmodalcontainer{
+   background: #1417d9;
+   background: linear-gradient(90deg, rgba(20, 23, 217, 1) 0%, rgba(24, 222, 222, 1) 100%);
+   color: white;
+}
+#IDPASSOWRD>div{
+    margin: 5px;
+    input{
+    border-radius: 10px;
+   }
+
+}
+.Forgot{
+    color: rgb(255, 253, 253);
+}
+/* footer */
+
+#footer{
+    border: 1px black solid;
+    height: 200px;
+    background-color: rgb(237, 240, 240);
+    display: flex; /* Arranges div in a row */
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 50px;
+}
+
+#footerdivI{
+   margin-left: 100px;
+}
+#developer{
+    background-color: rgb(94, 99, 102);
+    color: white;
+    text-align: center;
+}
+
+#loginmenu{
+    list-style: none; 
+    padding: 5px;   
+    cursor: pointer;
+}
+#loginmenu ul{
+    display: none;
+}
+#loginmenu:hover ul{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    /* top:0%; */
+    padding: 0px;
+    li{
+        list-style: none;
+        background: #ffffff;
+        /* border: 1px solid; */
+        margin-left: -55px;
+        padding: 5px;
+        
+    }
+}
+#carouseldiv{
+    width: 50%;
+    height: 400px;
+}
+#carouselExampleAutoplaying{
+    /* width: 50%; */
+    height: 400px;
+    /* border: black 2px solid; */
+}
+#image{
+    /* width: ; */
+    height: 400px;
+
+}
+#bannerdiv{
+    display: flex ;
+    gap: 10px;
+}
+#blogcontainer{
+    width: 50%;
+    height: 400px;
+    overflow: auto;
+}
+#productcontainer{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#productcard{
+    width: 210px;
+    background: rgb(220, 218, 217);
+    border: 2px rgb(115, 130, 243) solid;
+    border-radius: 10px 0px;
+    box-shadow: 5px 5px 10px;
+    padding: 5px;    
+    div{
+        margin: 0px;
+        padding: 0px;
+        width: 200px;
+        /* padding: 5px; */
+        /* border: 1px black solid; */
+        justify-self: center;
+    }
+}
+#productcard:hover{
+    width: 220px;
+    border: 4px rgb(137, 4, 170) solid;
+    /* align-items: center; */
+   
+}
+#productimage{
+    margin: 0px;    
+    width: 198px;
+    height: 200px;
+    border-radius: 10px 0px;
+    
+}
+#pr-name{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+
+}
+.dropdown{
+    list-style: none;
+    margin-left: 10px;
+}
+#employee2{
+     background: linear-gradient(90deg, rgb(144, 5, 65) 0%, rgba(119, 189, 29, 0.716) 100%);
+
+    div{
+    color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    }
+    
+}
+#addempbtn{
+   display: flex;
+   gap: 10px;
+    justify-content: center;
+    button{
+        border-radius: 5px;
+        background-color: rgb(117, 18, 229);
+    }
+}
+#empname,#empCO,#empEmail,#empaddress{
+    width: 300px;
+}
+#productdiv{
+    background: linear-gradient(60deg, rgb(32, 169, 89) 0%, rgba(189, 186, 29, 0.716) 100%);
+    padding: 20px;
+    height: 1000px;
+}
+#prdivitem>div{
+    margin: 20px;
+}
+#product_name{
+    width: 300px;
+}
+button:hover{
+    background: #e10ca5 !important;
+}
+#uploadmsg{
+    color: white;
+    font-size: large;
+    display: none;
+}
+#uploadmsg2{
+    font-size: large;
+    color: red;
+    display: none;
+}
+#feedbackdiv{
+    background-color: rgb(255, 255, 255 , 0.5);
+    padding: 20px;
+    /* background: transparent, 50%; */
+}
+#feedbackcustomer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-weight: bold ;
+}
+#feedbackcustomer>div>input{
+    width: 300px;
+}
+#PQtable>div{
+    
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    font-weight: bold ;
+    grid-column: auto;
+}
+#PQone{
+    font-weight: bold ;
+}
+#OSradio{
+    font-weight: bold;
+}
+#comments{
+    width: 500px;
+    height: 200px;
+}

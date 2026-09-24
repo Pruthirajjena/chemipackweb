@@ -1,0 +1,83 @@
+<div id="feedbackdiv">
+    <div><h3>Feedback for Chemipackindia</h3></div>
+    <div id="feedbackcustomer">
+        <div><label for="">Company Name:</label> <input type="text" id="fdcompanyname"></div>
+        <div><label for="">Customer Name:</label> <input type="text" id="fdname"></div>
+        <div><label for="">Contact Person:</label> <input type="text" id="fdcontactperson"></div>
+        <div><label for="">Contact No.:</label> <input type="text" id="fdcontactno"></div>
+        <div><label for="">Email:</label> <input type="text" id="fdemail"></div>
+        <div><label for="">Company Address:</label><textarea name="" id="fdaddress"></textarea></div>        
+    </div>
+    <div><h4>Product Quality</h4></div>
+    <div id="PQtable">
+       <h4>Please rate the following:</h4>
+        <div id="PQone">
+            <div>Parameter</div>
+            <div>Excellent</div>
+            <div>Good</div>
+            <div>Satisfactory</div>
+            <div>Poor</div>
+        </div>
+        <div id="PQtwo">
+            <div>Product Quality </div>
+            <div><input type="radio" value="Excellent" name="PQradio" id=""></div>
+            <div><input type="radio" value="Good" name="PQradio" id=""></div>
+            <div><input type="radio" value="Satisfactory" name="PQradio" id=""></div>
+            <div><input type="radio" value="Poor" name="PQradio" id=""></div>
+        </div>
+        <div id="PQthree">
+            <div>Appearance / Finish</div>
+            <div><input type="radio" value="Excellent" name="AFrdaio" id=""></div>
+            <div><input type="radio" value="Good" name="AFrdaio" id=""></div>
+            <div><input type="radio" value="Satisfactory" name="AFrdaio" id=""></div>
+            <div><input type="radio" value="Poor" name="AFrdaio" id=""></div>
+        </div>
+        <div id="PQfour">
+            <div>Dimensional Accuracy</div>
+            <div><input type="radio" value="Excellent" name="DAradio" id=""></div>
+            <div><input type="radio" value="Good" name="DAradio" id=""></div>
+            <div><input type="radio" value="Satisfactory" name="DAradio" id=""></div>
+            <div><input type="radio" value="Poor" name="DAradio" id=""></div>
+        </div>
+        <div id="PQfive">
+            <div>Colour Consistency</div>
+            <div><input type="radio" value="Excellent" name="CCradio" id=""></div>
+            <div><input type="radio" value="Good" name="CCradio" id=""></div>
+            <div><input type="radio" value="Satisfactory" name="CCradio" id=""></div>
+            <div><input type="radio" value="Poor" name="CCradio" id=""></div>
+        </div >
+        <div>
+            <div>Strength / Performance</div>
+            <div><input type="radio" value="Excellent" name="SPradio" id=""></div>
+            <div><input type="radio" value="Good" name="SPradio" id=""></div>
+            <div><input type="radio" value="Satisfactory" name="SPradio" id=""></div>
+            <div><input type="radio" value="Poor" name="SPradio" id=""></div>
+        </div>
+        <div>
+            <div>Leakage / Functional Performance</div>
+            <div><input type="radio" value="Excellent" name="LFPradio" id=""></div>
+            <div><input type="radio" value="Good" name="LFPradio" id=""></div>
+            <div><input type="radio" value="Satisfactory" name="LFPradio" id=""></div>
+            <div><input type="radio" value="Poor" name="LFPradio" id=""></div>
+        </div>
+    </div>
+    <div><h4>Overall Satisfaction </h4></div>
+    <div>
+        <div><h4>How satisfied are you with our products and services?</h4></div>
+        <div id="OSradio">
+        <label for=""> <input type="radio" value="Very Satisfied" name="OSradio" id="">Very Satisfied</label>
+        <label for=""> <input type="radio" value="Satisfied" name="OSradio" id="">Satisfied</label> 
+        <label for=""> <input type="radio" value="Neutral" name="OSradio" id="">Neutral</label> 
+        <label for=""> <input type="radio" value="Dissatisfied" name="OSradio" id="">Dissatisfied</label>  
+        </div>
+    </div>
+    <div> <h4>Customer Comments / Suggestions</h4></div>
+    <div>
+        <textarea name="" id="comments"></textarea>
+    </div>
+    
+</div>
+<div style="padding: 10px; display: flex; justify-content: center; gap: 30px;">
+    <button style="border-radius: 5px;" onclick="feedbackdata()">Submit</button>
+    <button style="border-radius: 5px;">Cancel</button>
+</div>
