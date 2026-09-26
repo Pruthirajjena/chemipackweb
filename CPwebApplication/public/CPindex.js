@@ -1,7 +1,6 @@
 var homepage =()=>{
     $("#bodymain").empty();
     $("#bodymain").load("HTM/homepage.htm");
-  
 }
 
 var loadeselectpage = (type)=>{

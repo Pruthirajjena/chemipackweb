@@ -11,9 +11,9 @@ var executivesignupRouter = require('./routes/executivesignupdata');
 var executiveloginRouter = require('./routes/executiveloginvalidation');
 var addemployeRouter = require('./routes/addemp');
 var productimageRouter = require('./routes/Productimageupload');
-var productdetailsRouter = require('./routes/addproductroutes')
-var FeedbackRouter = require('./routes/feedbackroute')
-
+var productdetailsRouter = require('./routes/addproductroutes');
+var FeedbackRouter = require('./routes/feedbackroute');
+var addnewbatchdata = require('./routes/addnewbatchdata');
 
 
 
@@ -38,6 +38,7 @@ app.use('/add/employee/data',addemployeRouter);
 app.use('/prduct/image/upload',productimageRouter);
 app.use('/add/product/details',productdetailsRouter);
 app.use('/feed/back/details', FeedbackRouter);
+app.use('/add/New/batchdata',addnewbatchdata);
 
 
 

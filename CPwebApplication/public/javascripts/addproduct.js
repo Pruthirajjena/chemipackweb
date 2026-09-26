@@ -8,6 +8,7 @@ var productdetails ={};
 var addnewproduct =() =>{
     
     productdetails.Pname = $("#product_name").val();
+    productdetails.Pcode = $("#product_code").val();
     productdetails.catagory= $("#P_category").val();
 
     console.log(productdetails)

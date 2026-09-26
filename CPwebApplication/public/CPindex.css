@@ -224,3 +224,15 @@ button:hover{
     width: 500px;
     height: 200px;
 }
+.batchtemplet{
+    padding: 50px;
+
+}
+.batchtemplet>div>div{
+    margin: 10px 0px 10px 0px;
+    font-weight: bold;
+}
+.batchtemplet>div>div>input{
+    width: 250px;
+    border-radius: 10px;
+}

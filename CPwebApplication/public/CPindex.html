@@ -22,6 +22,7 @@
     <script src="../../javascripts/addemployee.js"></script>
     <script src="../../javascripts/addproduct.js"></script>
     <script src="../../javascripts/feedback.js"></script>
+    <script src="../../javascripts/addbatch.js"></script>
 </head>
 <body>
   <!-- navebar -->
@@ -44,7 +45,7 @@
                 <a class="nav-link" href="#" onclick="feedback()">Feedback</a>
               </li>
               <li class="nav-item dropdown dropdownmenu" id="itemdropdown" style="display: none;">
-                <div class="dropdown">
+                <ul class="dropdown">
                   <a class=" nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Menu
                   </a>
@@ -52,8 +53,9 @@
                     <li><a class="dropdown-item" id="addexecutivemodal" data-bs-toggle="modal" data-bs-target="#executivesignupmodal">Add Executive</a></li>
                     <li><a class="dropdown-item" href="#" onclick="addemployee()">Add Employee Details</a></li>
                     <li><a class="dropdown-item" href="# " onclick="addproductdiv()">Add Product</a></li>
+                    <li><a class="dropdown-item" href="# " onclick="openbatchwindo()">Add New Batch Details</a></li>
                   </ul>
-                </div>
+                </ul>
               </li>
               
             </ul>
@@ -80,7 +82,7 @@
       </div>
     </div>
       
-   
+  <!-- ##################################################################################################################################### -->
 <!-- Login admin modal -->
        <div class="modal " id="adminloginmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
         <div class="modal-dialog">
