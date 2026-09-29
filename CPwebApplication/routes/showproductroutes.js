@@ -11,14 +11,14 @@ router.post('/', (req, res, next)=>{
     var showprod = {};
 
     mongodbconnect(showprod).then((response)=>{
-        // responseOBJ.msg = "Success";
-        res.send(JSON.stringify(showprod))
-        console.log('DB result', result)
+        // showprod.msg = "Success";
+        res.send(JSON.stringify(response))
+        console.log('DB result', response)
     })
     
 
 });
-async function mongodbconnect() {
+async function mongodbconnect(showprod) {
   // Use connect method to connect to the server
   await mongoClient.connect();
   console.log('Connected successfully to server');
