@@ -4,7 +4,7 @@ var router = express.Router();
 const{MongoClient} = require("mongodb");
 const dburl = 'mongodb://localhost:27017';
 const mongoClient = new MongoClient(dburl);
-
+var products = { details:[] };
 router.post('/', (req, res, next)=>{
     console.log("Data receved form user");
     console.log(req.body);
@@ -12,7 +12,8 @@ router.post('/', (req, res, next)=>{
 
     mongodbconnect(showprod).then((response)=>{
         // showprod.msg = "Success";
-        res.send(JSON.stringify(response))
+        products.details = response;
+        res.send(JSON.stringify(products))
         console.log('DB result', response)
     })
     
