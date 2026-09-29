@@ -14,7 +14,7 @@ var productimageRouter = require('./routes/Productimageupload');
 var productdetailsRouter = require('./routes/addproductroutes');
 var FeedbackRouter = require('./routes/feedbackroute');
 var addnewbatchdata = require('./routes/addnewbatchdata');
-
+var showproduct = require('./routes/showproductroutes');
 
 
 var app = express();
@@ -39,6 +39,7 @@ app.use('/prduct/image/upload',productimageRouter);
 app.use('/add/product/details',productdetailsRouter);
 app.use('/feed/back/details', FeedbackRouter);
 app.use('/add/New/batchdata',addnewbatchdata);
+app.use('/show/product/onpage', showproduct);
 
 
 
