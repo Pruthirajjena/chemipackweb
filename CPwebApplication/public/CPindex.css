@@ -236,3 +236,35 @@ button:hover{
     width: 250px;
     border-radius: 10px;
 }
+/* for product cart */
+.pdetailblock{
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.paroductcart{    
+    padding: 5px;
+    height: 350px;
+    width: 250px;
+    border:   black, solid, 2px ;
+    border-radius: 10px;
+    background-color: rgb(47, 139, 245);
+    font-weight: bold;
+    div{
+        
+        /* padding: 5px; */
+        /* border: 1px black solid; */
+        justify-self: center;
+    }
+} 
+#productcartimages{
+    height: 240px;
+    width: 240px;
+}
+#productcartimages{
+    border-radius: 10px;
+}
+/* ################################################################################################# */
+

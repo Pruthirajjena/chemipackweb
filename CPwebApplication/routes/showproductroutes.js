@@ -14,7 +14,7 @@ router.post('/', (req, res, next)=>{
         // showprod.msg = "Success";
         products.details = response;
         res.send(JSON.stringify(products))
-        console.log('DB result', response)
+        // console.log('DB result', response)
     })
     
 

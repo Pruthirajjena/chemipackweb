@@ -12,7 +12,7 @@ var exesignup = () => {
     executivesignup.phone= $("#exe-phonenumber").val();
     executivesignup.exeuserid= $("#exe-userid").val();
     executivesignup.exepassword= $("#Executive-password").val();
-
+    executivesignup.department= $("#empdepartment2").val();
     var execonfirmpassword= $ ("#Executive-Confirm-password").val();
 
     console.log(executivesignup);

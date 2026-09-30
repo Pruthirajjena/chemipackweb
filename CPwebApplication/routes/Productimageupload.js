@@ -22,7 +22,7 @@ router.post('/',(req,res,next)=>{
             responseOBJ.msg= "Error"
             console.log(err);
         }else{
-            responseOBJ.file_path = "\\images\\productimage\\"+file_path;
+            responseOBJ.file_path = "\\productimage\\"+file_path;
             responseOBJ.msg = "success"
         }
         res.send(JSON.stringify(responseOBJ));
