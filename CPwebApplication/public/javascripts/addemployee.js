@@ -1,5 +1,5 @@
 var addemployee = () =>{
-    // $("#bodycontant").hide();
+    
     $("#bodymain").empty();
     $("#bodymain").load("HTM/addemploye.htm");
 

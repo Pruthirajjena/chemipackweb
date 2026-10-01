@@ -267,4 +267,21 @@ button:hover{
     border-radius: 10px;
 }
 /* ################################################################################################# */
-
+/* add daly porduction */
+#mainproductiondiv{
+    background-color: #f3ddfc21;
+    padding: 30px;
+}
+#productiondiv2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    input{
+        width: 200px;
+    }
+}
+#addproductionBTN{
+    display: flex;
+    position: relative;
+    left:90%;
+}
