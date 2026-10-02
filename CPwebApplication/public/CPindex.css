@@ -148,7 +148,7 @@
     margin-left: 10px;
 }
 #employee2{
-     background: linear-gradient(90deg, rgb(144, 5, 65) 0%, rgba(119, 189, 29, 0.716) 100%);
+     /* background: linear-gradient(90deg, rgb(144, 5, 65) 0%, rgba(119, 189, 29, 0.716) 100%); */
 
     div{
     color: #ffffff;
@@ -170,7 +170,7 @@
     width: 300px;
 }
 #productdiv{
-    background: linear-gradient(60deg, rgb(32, 169, 89) 0%, rgba(189, 186, 29, 0.716) 100%);
+    /* background: linear-gradient(60deg, rgb(32, 169, 89) 0%, rgba(189, 186, 29, 0.716) 100%); */
     padding: 20px;
     height: 1000px;
 }
@@ -271,6 +271,8 @@ button:hover{
 #mainproductiondiv{
     background-color: #f3ddfc21;
     padding: 30px;
+    font-weight: bold;
+
 }
 #productiondiv2{
     display: flex;

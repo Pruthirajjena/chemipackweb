@@ -1,19 +1,50 @@
 <div id="mainproductiondiv">
     <div><h3> ADD DALY PRODUCTION DETAILS</h3></div>
     <div id="productiondiv2">
-        <div><label for="">Batch Number: </label><input type="text"></div>
-        <div><label for="">Product Name: </label><input type="text" name="" id=""></div>
-        <div><label for="">Product code: </label><input type="text" name="" id=""></div>
-        <div><label for="">Resin Name + Grede: </label><input type="text" name="" id=""></div>
-        <div><label for="">Colorant Grede: </label><input type="text" name="" id=""></div>
-        <div><label for="">OK Production: </label><input type="number" name="" id=""></div>
-        <div><label for="">Reject Production: </label><input type="number" name="" id=""></div>
-        <div><label for="">Total Production: </label><input type="number" name="" id=""></div>
-        <div><label for="">Machine Identification Code: </label><input type="text" name="" id=""></div>
-        <div><label for="">Shift: </label><input type="text" name="" id=""></div>
-        <div><label for="">Date: </label><input type="date" name="" id=""></div>
+        <div><label for="">Batch Number: </label><input type="text" id="dpdbatchnumber"></div>
+        <div><label for="">Product Name: </label><input type="text" name="" id="dpdproductname"></div>
+        <div><label for="">Product code: </label><input type="text" name="" id="dpdproductcode"></div>
+        <div><label for="">Resin Grede: </label><input type="text" name="" id="dpdresin"></div>
+        <div><label for="">Colorant Grede: </label><input type="text" name="" id="dpdcolorant"></div>
+        <div><label for="">OK Production: </label><input type="number" name="" id="dpdOKproduction"></div>
+        <div><label for="">Reject Production: </label><input type="number" name="" id="dpdrejection"></div>
+        <div><label for="">Total Production: </label><input type="number" name="" id="dpdtotalproduction"></div>
+        <div><label for="">Machine Identification Code: </label><input type="text" name="" id="dpdmachinecode"></div>
+        <div><label for="">Shift: </label><input type="text" name="" id="dpdshift"></div>
+        <div><label for="">Date: </label><input type="date" name="" id="dpdDate"></div>
+        <div>
+            <label for="">DMF OR NON-DMF</label>
+            <select name="value" id="dpd-DMF-NONDMF">
+                <option value="">Please select category</option>                        
+                <option value="DMF">DMF</option>
+                <option value="NON-DMF">NON-DMF</option>                
+            </select>
+        </div>
+        <div>
+            <label for="">Select Product Catagory</label>
+            <select name="value" id="dpd-P_category">
+                <option value="">Please select category</option>
+                <option value="HDPE Bottle">HDPE Bottle</option>
+                <option value="PP CRC">PP CRC</option>
+                <option value="PP CTC">PP CTC</option>
+                <option value="HDPE Canister">HDPE Canister</option>
+                <option value="HDPE Desiccant Canister">HDPE Desiccant Canister</option>
+                <option value="LDPE Poly Bag">LDPE Poly Bag</option>
+                <option value="LLDPE Poly Bag">LLDPE Poly Bag</option>
+                <option value="LDPE Ziploc">LDPE Ziploc</option>
+                <option value="LLDPE Ziploc">LLDPE Ziploc</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Select UNIT</label>
+            <select name="value" id="dpd-unit">
+                <option value="">Please select</option>                        
+                <option value="I">I</option>
+                <option value="III">III</option>                
+            </select>
+        </div>
     </div>
     <div>
-        <button onclick="" id="addproductionBTN">Submit</button>
+        <button onclick="adddalyprodctiondata()" id="addproductionBTN">Submit</button>
     </div>
 </div>

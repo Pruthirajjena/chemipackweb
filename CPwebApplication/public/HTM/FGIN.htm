@@ -1,0 +1,48 @@
+<div id="mainproductiondiv">
+    <div><h3> FG IN</h3></div>
+    <div id="productiondiv2">
+        <div><label for="">Batch Number: </label><input type="text" id="FGINbatchnumber"></div>
+        <div><label for="">Product Name: </label><input type="text" name="" id="FGINproductname"></div>
+        <div><label for="">Product Code: </label><input type="text" name="" id="FGINproductcode"></div>
+        <div><label for="">Resin Grede: </label><input type="text" name="" id="FGINresin"></div>
+        <div><label for="">Colorant Grede: </label><input type="text" name="" id="FGINcolorant"></div>
+        <div><label for="">Box Quantity: </label><input type="number" name="" id="FGINboxquantity"></div>
+        <div><label for="">Qua. Per Box: </label><input type="number" name="" id="FGINquantityperbox"></div>
+        
+        <div>
+            <label for="">DMF OR NON-DMF</label>
+            <select name="value" id="FGIN-DMF-NONDMF">
+                <option value="">Please select</option>                        
+                <option value="DMF">DMF</option>
+                <option value="NON-DMF">NON-DMF</option>                
+            </select>
+        </div>
+        <div>
+            <label for="">Select Product Catagory</label>
+            <select name="value" id="FGIN-P_category">
+                <option value="">Please select</option>
+                <option value="HDPE Bottle">HDPE Bottle</option>
+                <option value="PP CRC">PP CRC</option>
+                <option value="PP CTC">PP CTC</option>
+                <option value="HDPE Canister">HDPE Canister</option>
+                <option value="HDPE Desiccant Canister">HDPE Desiccant Canister</option>
+                <option value="LDPE Poly Bag">LDPE Poly Bag</option>
+                <option value="LLDPE Poly Bag">LLDPE Poly Bag</option>
+                <option value="LDPE Ziploc">LDPE Ziploc</option>
+                <option value="LLDPE Ziploc">LLDPE Ziploc</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Select UNIT</label>
+            <select name="value" id="FGIN-unit">
+                <option value="">Please select</option>                        
+                <option value="I">I</option>
+                <option value="III">III</option>                
+            </select>
+        </div>
+        <div><label for="">Date: </label><input type="date" name="" id="FGINDate"></div>
+    </div>
+    <div>
+        <button onclick="FGdataIN()" id="addproductionBTN">Submit</button>
+    </div>
+</div>
