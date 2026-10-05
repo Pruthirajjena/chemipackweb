@@ -16,6 +16,9 @@ var FeedbackRouter = require('./routes/feedbackroute');
 var addnewbatchdata = require('./routes/addnewbatchdata');
 var showproduct = require('./routes/showproductroutes');
 var dalyproductiondata= require('./routes/daldyproductionroutes');
+var fgdatainputdata=require('./routes/fginroutes');
+var fgoutdata=require('./routes/FGoutroutes');
+
 
 var app = express();
 
@@ -41,7 +44,8 @@ app.use('/feed/back/details', FeedbackRouter);
 app.use('/add/New/batchdata',addnewbatchdata);
 app.use('/show/product/onpage', showproduct);
 app.use('/add/daly/production',dalyproductiondata);
-
+app.use('/add/fg/input',fgdatainputdata);
+app.use('/add/fg/out',fgoutdata);
 
 
 // catch 404 and forward to error handler

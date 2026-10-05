@@ -1,0 +1,50 @@
+<div id="mainproductiondiv">
+    <div><h3> FG OUT</h3></div>
+    <div id="productiondiv2">
+        <div><label for="">Costumer Name: </label><input type="text" id="FGOUTCostumerName"></div>
+        <div><label for="">Invoice Number: </label><input type="text" id="FGOUTInvoiceNumber"></div>
+        <div><label for="">Batch Number: </label><input type="text" id="FGOUTbatchnumber"></div>
+        <div><label for="">Product Name: </label><input type="text" name="" id="FGOUTproductname"></div>
+        <div><label for="">Product Code: </label><input type="text" name="" id="FGOUTproductcode"></div>
+        <div><label for="">Resin Grede: </label><input type="text" name="" id="FGOUTresin"></div>
+        <div><label for="">Colorant Grede: </label><input type="text" name="" id="FGOUTcolorant"></div>
+        <div><label for="">Box Quantity: </label><input type="number" name="" id="FGOUTboxquantity"></div>
+        <div><label for="">Qua. Per Box: </label><input type="number" name="" id="FGOUTquantityperbox"></div>
+        
+        <div>
+            <label for="">DMF OR NON-DMF</label>
+            <select name="value" id="FGOUT-DMF-NONDMF">
+                <option value="">Please select</option>                        
+                <option value="DMF">DMF</option>
+                <option value="NON-DMF">NON-DMF</option>                
+            </select>
+        </div>
+        <div>
+            <label for="">Select Product Catagory</label>
+            <select name="value" id="FGOUT-P_category">
+                <option value="">Please select</option>
+                <option value="HDPE Bottle">HDPE Bottle</option>
+                <option value="PP CRC">PP CRC</option>
+                <option value="PP CTC">PP CTC</option>
+                <option value="HDPE Canister">HDPE Canister</option>
+                <option value="HDPE Desiccant Canister">HDPE Desiccant Canister</option>
+                <option value="LDPE Poly Bag">LDPE Poly Bag</option>
+                <option value="LLDPE Poly Bag">LLDPE Poly Bag</option>
+                <option value="LDPE Ziploc">LDPE Ziploc</option>
+                <option value="LLDPE Ziploc">LLDPE Ziploc</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Select UNIT</label>
+            <select name="value" id="FGOUT-unit">
+                <option value="">Please select</option>                        
+                <option value="I">I</option>
+                <option value="III">III</option>                
+            </select>
+        </div>
+        <div><label for="">Date: </label><input type="date" name="" id="FGOUTDate"></div>
+    </div>
+    <div>
+        <button onclick="FGdataOUT()" id="addproductionBTN">Submit</button>
+    </div>
+</div>
