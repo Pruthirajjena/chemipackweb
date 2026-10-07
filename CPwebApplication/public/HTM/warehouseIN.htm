@@ -1,0 +1,59 @@
+<div id="mainproductiondiv">
+    <div class="divtitel"><h3> Warehouse IN</h3></div>
+    <div id="productiondiv2">
+
+        <div >
+            <label for="">Select Product Catagory</label>
+            <select name="value" id="WHIN-P_category">
+                <option value="">Please select</option>
+                <option value="HDPE">HDPE</option>
+                <option value="LDPE">LDPE</option>
+                <option value="Colorant">Colorant</option>
+                <option value="PP">PP</option>
+                <option value="LLDPE">LLDPE</option>
+                <option value="PET">PET</option>
+                <option value="Bucket">Bucket</option>
+                <option value="Lable">Lable</option>
+            </select>
+        </div>
+        <div class="btndiv-A" >
+        <button onclick="showinputbox()" id="addproductionBTN">Submit</button>
+        </div>
+
+        <div id="WHIN-productname-div"style="display: none;"><label for="">Product Name: </label><input type="text" name="" id="WHIN-productname"></div>
+        <div id="WHIN-batchnumber-div" style="display: none;"><label for="">Batch Number: </label><input type="text" id="WHIN-batchnumber"></div>        
+        <div id="WHIN-lotnumber-div" style="display: none;"><label for="">Lot Number: </label><input type="text" name="" id="WHIN-lotnumber"></div>
+        <div id="WHIN-resin-div" style="display: none;"><label for="">Resin Grede: </label><input type="text" name="" id="WHIN-resin"></div>
+        <div id="WHIN-colorant-div" style="display: none;"><label for="">Colorant Grede: </label><input type="text" name="" id="WHIN-colorant"></div>
+        <div  id="WHIN-packquantity-div" style="display: none;"><label for="">Pack Quantity: </label><input type="number" name="" id="WHIN-packquantity"></div>
+        <div id="WHIN-quantityperpack-div" style="display: none;"><label for="">KGS. Per Pack: </label><input type="number" name="" id="WHIN-quantityperpack"></div>
+        <div id="WHIN-bucket-div" style="display: none;"><label for="">Bucket Quantity: </label><input type="number" name="" id="WHIN-bucket"></div>
+        <div id="WHIN-lable-div" style="display: none;"><label for="">Lable Quantity: </label><input type="number" name="" id="WHIN-lable"></div>
+
+        <div id="WHIN-DMF-NONDMF-div" style="display: none;">
+            <label for="">DMF OR NON-DMF</label>
+            <select name="value" id="WHIN-DMF-NONDMF">
+                <option value="">Please select</option>                        
+                <option value="DMF">DMF</option>
+                <option value="NON-DMF">NON-DMF</option>                
+            </select>
+        </div>
+       
+        <div id="WHIN-unit-div" style="display: none;">
+            <label for="">Select UNIT</label>
+            <select name="value" id="WHIN-unit">
+                <option value="">Please select</option>                        
+                <option value="I">I</option>
+                <option value="III">III</option>                
+            </select>
+        </div>
+        <div id="WHIN-venderanme-div" style="display: none;"><label for="">Vender Name: </label><input type="text" name="" id="WHIN-vendername"></div>
+        <div id="WHIN-venderaddress-div" style="display: none;"><label for="">Vender Address: </label> <textarea name="" id="WHIN-vender-address"></textarea> </div>
+        <div id="WHIN-Manufacturer-div" style="display: none;"><label for="">Manufacturer Name: </label><input type="text" name="" id="WHIN-vendername"></div>
+        <div id="WHIN-Manufactureraddress-div" style="display: none;"><label for="">Manufacturer Address: </label> <textarea name="" id="WHIN-vender-address"></textarea> </div>
+        <div id="WHIN-Date-div" style="display: none;"><label for="">Date: </label><input type="date" name="" id="WHIN-Date"></div>
+    </div>
+    <div class="btndiv" style="display: none;">
+        <button onclick="FGdataIN()" id="addproductionBTN">Submit</button>
+    </div>
+</div>

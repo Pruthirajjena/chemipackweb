@@ -151,7 +151,8 @@
      /* background: linear-gradient(90deg, rgb(144, 5, 65) 0%, rgba(119, 189, 29, 0.716) 100%); */
 
     div{
-    color: #ffffff;
+    font-weight: bold;
+    color: #000000;
     margin: 10px;
     padding: 10px;
     }
@@ -286,4 +287,14 @@ button:hover{
     display: flex;
     position: relative;
     left:90%;
+}
+.btndiv{
+    padding: 20px;
+}
+.divtitel{
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+#prdivitem{
+    font-weight: bold;
 }

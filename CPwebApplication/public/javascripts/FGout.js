@@ -1,12 +1,12 @@
 
-var openfgoutwindo =()=>{
+var fgoutwindo =()=>{
     $("#bodymain").empty();
     $("#bodymain").load("HTM/FGout.htm");
 }
 
 var FGdataOUT =()=>{
     var fgdataout={}
-    fgdataout.Costumer Name = $("#FGOUTCostumerName").val();
+    fgdataout.CostumerName = $("#FGOUTCostumerName").val();
     fgdataout.InvoiceNumber = $("#FGOUTInvoiceNumber").val();
     fgdataout.batchnumber = $("#FGOUTbatchnumber").val();
     fgdataout.productname =$("#FGOUTproductnamec").val();
