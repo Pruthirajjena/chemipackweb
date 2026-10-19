@@ -1,7 +1,5 @@
 <div id="mainproductiondiv">
     <div class="divtitel"><h3> Warehouse IN</h3></div>
-    <div id="productiondiv2">
-
         <div >
             <label for="">Select Product Catagory</label>
             <select name="value" id="WHIN-P_category">
@@ -15,10 +13,11 @@
                 <option value="Bucket">Bucket</option>
                 <option value="Lable">Lable</option>
             </select>
+            <div class="btndiv-A" >
+                <button onclick="showinputbox()" id="addproductionBTN">OPEN FORM</button>
+            </div>
         </div>
-        <div class="btndiv-A" >
-        <button onclick="showinputbox()" id="addproductionBTN">Submit</button>
-        </div>
+    <div id="productiondiv2">
 
         <div id="WHIN-productname-div"style="display: none;"><label for="">Product Name: </label><input type="text" name="" id="WHIN-productname"></div>
         <div id="WHIN-batchnumber-div" style="display: none;"><label for="">Batch Number: </label><input type="text" id="WHIN-batchnumber"></div>        

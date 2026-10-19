@@ -284,9 +284,9 @@ button:hover{
     }
 }
 #addproductionBTN{
-    display: flex;
+    /* display: flex;
     position: relative;
-    left:90%;
+    left:90%; */
 }
 .btndiv{
     padding: 20px;

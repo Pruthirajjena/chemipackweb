@@ -5,7 +5,7 @@ var WHwindo =()=>{
 
 var showinputbox = ()=>{
     
-    $(".btndiv-A").css("display", "none");
+    // $(".btndiv-A").css("display", "none");
 
     var a = $("#WHIN-P_category").val();
 
@@ -13,9 +13,13 @@ var showinputbox = ()=>{
         $("#WHIN-productname-div").css("display", "block");
         $("#WHIN-batchnumber-div").css("display", "block");
         $("#WHIN-lotnumber-div").css("display", "block");
-        $("#WHIN-resin-divv").css("display", "block");
+        $("#WHIN-resin-div").css("display", "block");
         $("#WHIN-packquantity-div").css("display", "block");
         $("#WHIN-quantityperpack-div").css("display", "block");
+
+        $("#WHIN-lable-div").css("display", "none");
+        $("#WHIN-colorant-div").css("display", "none");
+        $("#WHIN-bucket-div").css("display", "none");
 
         $("#WHIN-DMF-NONDMF-div").css("display", "block");
         $("#WHIN-unit-div").css("display", "block");
@@ -35,6 +39,10 @@ var showinputbox = ()=>{
         $("#WHIN-packquantity-div").css("display", "block");
         $("#WHIN-quantityperpack-div").css("display", "block");
 
+        $("#WHIN-lable-div").css("display", "none");
+        $("#WHIN-resin-div").css("display", "none");
+        $("#WHIN-bucket-div").css("display", "none");
+
         $("#WHIN-DMF-NONDMF-div").css("display", "block");
         $("#WHIN-unit-div").css("display", "block");
         $("#WHIN-Date-div").css("display", "block");
@@ -51,6 +59,10 @@ var showinputbox = ()=>{
         $("#WHIN-packquantity-div").css("display", "block");
         $("#WHIN-quantityperpack-div").css("display", "block");
 
+        $("#WHIN-colorant-div").css("display", "none");
+        $("#WHIN-lable-div").css("display", "none");
+        $("#WHIN-bucket-div").css("display", "none");
+
         $("#WHIN-DMF-NONDMF-div").css("display", "block");
         $("#WHIN-unit-div").css("display", "block");
         $("#WHIN-Date-div").css("display", "block");
@@ -59,13 +71,17 @@ var showinputbox = ()=>{
          $("#WHIN-venderaddress-div").css("display", "block");
          $("#WHIN-Manufacturer-div").css("display", "block");
          $("#WHIN-Manufactureraddress-div").css("display", "block");
-    }else if ( a === "LLDPE"){
+    }else if ( a === "LDPE"){
         $("#WHIN-productname-div").css("display", "block");
         $("#WHIN-batchnumber-div").css("display", "block");
         $("#WHIN-lotnumber-div").css("display", "block");
         $("#WHIN-resin-div").css("display", "block");
         $("#WHIN-packquantity-div").css("display", "block");
         $("#WHIN-quantityperpack-div").css("display", "block");
+
+        $("#WHIN-lable-div").css("display", "none");
+        $("#WHIN-colorant-div").css("display", "none");
+        $("#WHIN-bucket-div").css("display", "none");
 
         $("#WHIN-DMF-NONDMF-div").css("display", "block");
         $("#WHIN-unit-div").css("display", "block");
@@ -82,6 +98,10 @@ var showinputbox = ()=>{
         $("#WHIN-resin-div").css("display", "block");
         $("#WHIN-packquantity-div").css("display", "block");
         $("#WHIN-quantityperpack-div").css("display", "block");
+        
+        $("#WHIN-bucket-div").css("display", "none");
+        $("#WHIN-colorant-div").css("display", "none");
+        $("#WHIN-lable-div").css("display", "none");
 
         $("#WHIN-DMF-NONDMF-div").css("display", "block");
         $("#WHIN-unit-div").css("display", "block");
@@ -97,20 +117,30 @@ var showinputbox = ()=>{
         $("#WHIN-lotnumber-div").css("display", "block");
         $("#WHIN-bucket-div").css("display", "block");
         
+        $("#WHIN-colorant-div").css("display", "none");
+        $("#WHIN-resin-div").css("display", "none");
+        $("#WHIN-lable-div").css("display", "none");
+        $("#WHIN-quantityperpack-div").css("display", "none");
         
         $("#WHIN-DMF-NONDMF-div").css("display", "block");
         $("#WHIN-unit-div").css("display", "block");
         $("#WHIN-Date-div").css("display", "block");
         $(".btndiv").css("display", "block");
        
-         $("#WHIN-Manufacturer-div").css("display", "block");
-         $("#WHIN-Manufactureraddress-div").css("display", "block");
+        $("#WHIN-Manufacturer-div").css("display", "block");
+        $("#WHIN-Manufactureraddress-div").css("display", "block");
          
     }else if ( a === "Lable"){
         $("#WHIN-productname-div").css("display", "block");
         $("#WHIN-batchnumber-div").css("display", "block");
         $("#WHIN-lotnumber-div").css("display", "block");
         $("#WHIN-lable-div").css("display", "block");
+
+        
+        $("#WHIN-colorant-div").css("display", "none");
+        $("#WHIN-resin-div").css("display", "none");
+        $("#WHIN-bucket-div").css("display", "none");
+        $("#WHIN-quantityperpack-div").css("display", "none");
     
         $("#WHIN-DMF-NONDMF-div").css("display", "block");
         $("#WHIN-unit-div").css("display", "block");
@@ -126,6 +156,11 @@ var showinputbox = ()=>{
         $("#WHIN-resin-div").css("display", "block");
         $("#WHIN-packquantity-div").css("display", "block");
         $("#WHIN-quantityperpack-div").css("display", "block");
+
+        $("#WHIN-lable-div").css("display", "none");
+        $("#WHIN-colorant-div").css("display", "none");
+        $("#WHIN-bucket-div").css("display", "none");
+
 
         $("#WHIN-DMF-NONDMF-div").css("display", "block");
         $("#WHIN-unit-div").css("display", "block");
