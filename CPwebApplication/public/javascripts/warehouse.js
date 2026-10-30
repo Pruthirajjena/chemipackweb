@@ -172,3 +172,26 @@ var showinputbox = ()=>{
          $("#WHIN-Manufactureraddress-div").css("display", "block");
     }
 }
+var submitWHdata = () =>{
+    var WHdata = {};
+    WHdata.productcatagory=
+    WHdata.productname=
+    WHdata.batchnumber=
+    WHdata.lotnumber=
+    WHdata.resingreda=
+    WHdata.colorantgreda=
+    WHdata.packquantity=
+    WHdata.kgsperpack=
+    WHdata.bucketquantity=
+    WHdata.lablequantity=
+    WHdata.DMForNONDMF=
+    WHdata.unitlocation=
+    WHdata.vendername=
+    WHdata.venderaddress=
+    WHdata.manufacturername=
+    WHdata.Manufactureraddress=
+    WHdata.entrydate=
+    
+
+
+}
